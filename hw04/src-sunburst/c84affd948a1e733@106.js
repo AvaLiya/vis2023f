@@ -469,7 +469,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["artist.csv", {url: new URL("./files/5adac470d593e4b3578ba799ac97e8d3f3e82a5149141c4da452afe40ad1b4d88fbb0a16c1c1dbadc79d345f739bbf181c7f76243779ee27bd1ee42d33ec78cd.csv", import.meta.url), mimeType: "text/csv", toString}]
+    ["artist.csv", {url: new URL("https://github.com/AvaLiya/vis2023f/blob/main/hw04/src-sunburst/artist.csv", import.meta.url), mimeType: "text/csv", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);
