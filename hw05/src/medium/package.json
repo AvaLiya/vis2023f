@@ -1,0 +1,14 @@
+{
+  "name": "320e2c0578d61f78",
+  "main": "320e2c0578d61f78@32.js",
+  "version": "32.0.0",
+  "homepage": "https://observablehq.com/d/320e2c0578d61f78",
+  "author": {
+    "name": "王麗雅's Workspace",
+    "url": "https://observablehq.com/@wang-li-ya-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
